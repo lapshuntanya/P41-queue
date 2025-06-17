@@ -3,4 +3,5 @@ project(P41_queque)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(P41_queque main.cpp)
+add_executable(P41_queque main.cpp
+        myQueue.h)
